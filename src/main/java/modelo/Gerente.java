@@ -24,5 +24,4 @@ public class Gerente extends Usuario {
         this.turno = turno;
     }
     
-    
 }

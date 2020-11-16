@@ -9,14 +9,14 @@ package modelo;
  *
  * @author DANIEL
  */
-public class solicitud {
+public class Solicitud {
     private int codigo;
     private int solicitnate;
     private int cuenta;
     private String fecha;
-    private boolean estado;
+    private boolean aceptada;
 
-    public solicitud() {
+    public Solicitud() {
     }
 
     public int getCodigo() {
@@ -47,10 +47,10 @@ public class solicitud {
         this.fecha = fecha;
     }
 
-    public boolean isEstado() {
-        return estado;
+    public boolean isAceptada() {
+        return aceptada;
     }
-    public void setEstado(boolean estado) {
-        this.estado = estado;
+    public void setAceptada(boolean aceptada) {
+        this.aceptada = aceptada;
     } 
 }

@@ -20,6 +20,9 @@ public class Usuario {
     private String sexo;
     private String password;
 
+    public Usuario() {
+    }
+    
     public Usuario(int tipo) {
         this.tipo = tipo;
     }
@@ -34,7 +37,7 @@ public class Usuario {
     public int getTipo() {
         return tipo;
     }
-    private void setTipo(int tipo) {
+    public void setTipo(int tipo) {
         this.tipo = tipo;
     }
 
@@ -73,7 +76,7 @@ public class Usuario {
         this.sexo = sexo;
     }
 
-    private String getPassword() {
+    public String getPassword() {
         return password;
     }
     public void setPassword(String password) {
